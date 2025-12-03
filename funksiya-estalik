@@ -1,0 +1,6 @@
+def salamlashish(ism, familiya, sharif):
+    return f"Assalamu Alaykum {ism} {familiya} {sharif}, jamomizga xush kelibsiz! "
+ism = input("Ismingizni kiriting: ")
+familiya = input("Familiyangizni kiritng: ")
+sharif = input("Sharifingizni kiritng: ")
+print(salamlashish(ism, familiya, sharif))
